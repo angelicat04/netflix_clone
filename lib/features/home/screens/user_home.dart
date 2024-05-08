@@ -186,7 +186,7 @@ class UserHome extends StatelessWidget {
               ),
             ],
           ),
-          Container(
+          /*Container(
             color: Colors.black,
             margin: EdgeInsets.only(bottom: 0.0),
             height: 54,
@@ -250,13 +250,13 @@ class UserHome extends StatelessWidget {
                     )
                   ],
                 ),
-                Column(
+               Column(
                   children: [
                     SizedBox(
-                      child: Icon(
-                        Icons.search_outlined,
-                        color: Colors.grey,
-                      ),
+                        child: Icon(
+                          Icons.search_outlined,
+                          color: Colors.grey,
+                        ),
                     ),
                     SizedBox(
                       child: Text(
@@ -271,7 +271,7 @@ class UserHome extends StatelessWidget {
                 )
               ],
             ),
-          )
+          )*/
         ],
       ),
     ));
