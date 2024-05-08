@@ -16,7 +16,7 @@ class SearchScroll extends StatelessWidget {
           Positioned(child: search()),
           Positioned(
               child: Container(
-            margin: EdgeInsets.only(top: 55),
+            margin: EdgeInsets.only(top: 100),
             child: Text(
               "Movies & TV",
               textAlign: TextAlign.left,
@@ -28,7 +28,7 @@ class SearchScroll extends StatelessWidget {
           )),
           Positioned(
               child: Container(
-            margin: EdgeInsets.only(top: 90),
+            margin: EdgeInsets.only(top: 120),
             child: ListView(
               children: [
                 searchVideo("search_cover1.png", "The Sea Beast"),
@@ -69,7 +69,7 @@ class searchVideo extends StatelessWidget {
             ),
           ),
           SizedBox(
-            width: 240,
+            width: 200,
             child: Text(
               "$title",
               style: TextStyle(color: Colors.grey),

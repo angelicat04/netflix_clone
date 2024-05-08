@@ -17,7 +17,7 @@ class _searchState extends State<search> {
       children: [
         Container(
             width: largeur,
-            margin: EdgeInsets.only(top: 10, left: 20),
+            margin: EdgeInsets.only(top: 50, left: 15),
             padding: EdgeInsets.only(left: 4),
             height: 35,
             child: Stack(

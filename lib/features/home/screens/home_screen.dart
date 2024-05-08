@@ -64,7 +64,7 @@ class HomeScreen extends StatelessWidget {
               height: 50,
               width: MediaQuery.sizeOf(context).width * 0.75,
               child: ColoredBox(
-                color: Colors.red,
+                color: const Color.fromARGB(255, 232, 44, 31),
                 child: ElevatedButton(
                   onPressed: () {
                     Navigator.push(

@@ -15,7 +15,7 @@ class NetflixCloneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Netflix_Clone",
-      home: MoviesGridScreen(),
+      home: HomeScreen(),
     );
   }
 }
